@@ -27,7 +27,7 @@ namespace Program2
             Console.WriteLine("Total Cost: $" + orderUSA.CalculateTotalCost());
             Console.WriteLine();
 
-            Console.WriteLine("Order for Non-USA Customer:");
+            Console.WriteLine("Order for No USA Customer:");
             Console.WriteLine(orderNonUSA.GetPackingLabel());
             Console.WriteLine(orderNonUSA.GetShippingLabel());
             Console.WriteLine("Total Cost: $" + orderNonUSA.CalculateTotalCost());
